@@ -1,0 +1,261 @@
+.section-13{
+	margin-top:100px;
+}
+.section-13 .card{
+	box-shadow: 0px 20px 60px rgb(0 0 0 / 10%);
+	padding-top:40px;
+	padding-bottom:40px;
+	border-radius:10px;
+}
+
+.section-13 .scanar{
+	margin-top:10px;
+	width:160px;
+	float:left;
+	margin-left:50px;
+}
+.section-13 .mid-card{
+	padding-top:15px;
+}
+.section-13 .mid-card .app{
+   display:none;
+}
+.section-13 .mid-card h1{
+	font-family: Lato Black;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    color: #000;
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1;
+    font-weight: 900;
+}
+.section-13 .mid-card p{
+	font-size:20px;
+	color:#000;
+	opacity:0.7;
+}
+
+.section-13 .hand-mobile-card{
+	position:absolute;
+	width:225px;
+	right:0;
+	top:-66px;
+	right:50px;
+}
+
+.footer{
+	margin-top:100px;
+	background:#161d2d;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.footer .footer-fluid .left-logo img{
+	margin-top:0px;
+}
+.footer .footer-fluid .left-logo .give{
+	color:rgba(255,255,255,0.4);
+	font-size:16px;
+}
+
+.footer .socile{
+	margin-top:20px;
+	margin-left:-15;
+}
+.footer .socile a{
+	display:inline-block;
+	text-decoration:none;
+	font-size:22px;
+	margin-right:-15px;
+	background:none;
+	color:rgba(255,255,255,0.4);
+	border:none;
+	transition:all 0.3s;
+}
+.footer .socile a:hover{
+	color:rgba(255,255,255,1);
+}
+.footer .s-link p{
+	margin-bottom: 12.8px;
+	font-size:18px;
+    padding-bottom: 12.8px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.3);
+	font-weight:600;
+}
+.footer .s-link ul li a{
+	text-decoration:none;
+	color: rgba(255,255,255,0.7);
+	font-weight: 500;
+	font-size:16px;
+	transition:all 0.2s;
+}
+.footer .s-link ul li a:hover{
+	color: rgba(255,255,255,1);
+}
+.footer .s-link ul li{
+	list-style-type:none;
+	line-height:35px;
+}
+
+.footer .refer-row{
+	margin-top:20px;
+	
+}
+.footer .refer{
+	
+	padding-top:25px;
+	padding-bottom:25px;
+	border-top:1px solid rgba(255,255,255,0.1);
+	border-bottom:1px solid rgba(255,255,255,0.1);
+}
+.footer .refer span{
+	color:rgba(255,255,255,0.9);
+    font-size:18px;
+	font-weight:bold;
+}
+.footer .refer .new{
+	color:#ffff;
+	text-transform:uppercase;
+	background:#0049FF;
+	padding:2px 8px;
+	border-radius:6px;
+	font-size:14px;
+	font-weight:bold;
+}
+.footer .prag{
+	margin-top:20px;
+}
+.footer .prag p{
+	
+	color:rgba(255,255,255,0.5);
+}
+.footer .under{
+	margin-top:20px;
+}
+.footer .under-last{
+	border-top:1px solid rgba(255,255,255,0.1);
+	color:rgba(255,255,255,0.5);
+}
+.footer .under-last ul{
+	padding:0;
+	
+	float:right;
+	margin-top:-30px;
+}
+.footer .under-last p{
+	margin-top:10px;
+}
+.footer .under-last ul li{
+	list-style-type:none;
+	display:inline-block;
+}
+
+
+
+@media (max-width:992px) {
+
+.footer .footer-fluid{
+	padding-left:16px;
+	padding-right:16px;
+}
+.section-13 .card {
+    box-shadow: 0px 20px 60px rgb(0 0 0 / 10%);
+    padding-top: 30px;
+padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section-13 .scanar {
+    margin-top: 10px;
+ width: 120px;
+ margin-left: 40px;
+ }
+.section-13 .hand-mobile-card {
+    width: 170px;
+    top: -49px;
+    right: 20px;
+}
+.section-13 .mid-card {
+    padding-top: 5px;
+}
+.section-13 .mid-card p {
+font-size: 15px;}
+.section-13 .mid-card h1 {
+    font-size: 32px;
+margin-bottom: 20px;}
+}
+
+
+
+@media (max-width: 767px) {
+
+.section-13 .hand-mobile-card {
+    width: 170px;
+    top: -188px;
+    right: 20px;
+}
+.section-13 .card{
+	padding-top:0;
+	padding-bottom:20;
+}
+  
+.section-13 .card .scan{
+	display:none;
+}
+.section-13 .mid-card .app{
+   display:block;
+   width:110px;
+}
+
+}
+
+
+
+
+@media (max-width: 568px) {
+
+.section-13 .card{
+	padding-top:0;
+	padding-bottom:20;
+}
+  
+.section-13 .mid-card h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+  
+
+
+ 
+}
+
+@media (max-width: 468px) {
+
+
+.section-13 {
+    margin-top: 20px;
+}
+.section-13 .mid-card h1 {
+font-size: 20px;}
+.section-13 .mid-card .app {
+  
+width: 100px;}
+.section-13 .hand-mobile-card {
+width: 100px;
+top: -102px;
+right:0;
+}
+.footer {
+    margin-top: 20px;
+
+}
+@media (max-width: 368px) {
+	
+.footer .under img{
+    width:150px;
+}
+}
+

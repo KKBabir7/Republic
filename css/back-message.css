@@ -1,0 +1,267 @@
+/*--------------------------------------------------------------
+# back to top
+--------------------------------------------------------------*/
+#js-top {
+	position: fixed;
+	bottom: -200px;
+	right: 15px;
+	padding:15px 18px;
+	z-index:55;
+	outline:none;
+	box-shadow:none;
+	border-radius:100px;
+	background:#ffff;
+	border:none;
+	
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+	transition: all ease 0.4s;
+}
+
+#js-top{
+	color:#0049ff;
+	font-size:22px;
+}
+#js-top:hover  i{
+	color:#0049ff;
+}
+#js-top:hover {
+   background:rgba(200,200,200,0.2);
+   border:none;
+   transition: all 0.4s;
+}
+/*--------------------------------------------------------------
+# message modal
+--------------------------------------------------------------*/
+#meg #one {
+	padding:16px 19px;
+	display:none;
+}
+
+#meg #tow{
+	padding:16px 16px;
+}
+#meg{
+    right: 15px;
+    position: fixed;
+    bottom: 5px;
+    outline:none;
+    box-shadow:none;
+    border-radius:100px;
+    background:#ffff;
+    border:none;
+    color:rgba(0,0,0,0.7);
+    z-index:60;
+	font-size:18px;
+	cursor:pointer;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+    transition: all ease 0.4s;
+}
+#meg:hover{
+	background:rgba(200,200,200,0.2);
+    border:none;
+    transition: all 0.4s;
+}
+#message{
+	visibility:hidden;
+	transition:all 0.3s ease;
+	opacity:0;
+}
+.message{
+	width:350px;
+	position:fixed;
+	overflow-y:auto;
+	height:500px;
+	z-index:100;
+	right:0;
+	bottom:70px;
+	right:20px;
+	background:#FAF7F7;
+	border-radius:6px;
+	border:1px sold rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.25);
+}
+.message  .up{
+	padding-top:12px;
+	padding-bottom:25px;
+	background:#ffff;
+}
+
+.message  .send{
+	font-size:14px;
+}
+.message  .how{
+	font-size:16px;
+	font-weight:bold;
+}
+.message  .we{
+	font-size:14px;
+	opacity:0.8;
+	margin-top:-10;
+}
+
+.message  .up ul{
+	padding:0;
+	
+}
+.message  .up ul li{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:-3px;
+	margin-right:-3px;
+}
+.message  .up ul li img{
+	width:45px;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+	border-radius:100px;
+}
+.message .form-group .input{
+	box-shadow:none;
+	height:40px;
+	border:1px solid rgba(0,0,0,0.1)
+}
+.message .form-group .input:focus{
+	
+	border:1px solid rgba(0,0,0,0.1)
+}
+.message .down{
+	background:#FAF7F7;
+	padding-top:20px;
+}
+.message .comment{
+	margin: 0px calc(-14px) 2px;
+    overflow-y: auto;
+	overflow-x: hidden;
+    resize: none;
+	min-height: 47px !important;
+    line-height: 20px !important;
+}
+.message textarea{
+	border-bottom:none;
+	box-shadow:none;
+	border-top:1px solid rgba(0,0,0,0.1);
+	border-right:1px solid rgba(0,0,0,0.1);
+	border-left:1px solid rgba(0,0,0,0.1);
+}
+.message textarea:focus{
+	box-shadow:none;
+	border-top:1px solid rgba(0,0,0,0.1);
+	border-right:1px solid rgba(0,0,0,0.1);
+	border-left:1px solid rgba(0,0,0,0.1);
+	border-bottom:none;
+}
+.message .meg-op p{
+	width:100%;
+	position:relative;
+	height:10px;
+	background:#ffff;
+	border-top:none;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	border-right:1px solid rgba(0,0,0,0.1);
+	border-left:1px solid rgba(0,0,0,0.1);
+	padding-top:10px;
+	padding-bottom:12px;
+}
+.message .meg-op .fa-image{
+	
+}
+.message .meg-op .fa-grin-alt{
+	float:right;
+	margin-right:35px;
+	font-size:20px;
+	opacity:0.7;
+	margin-top:-10px;
+	cursor:pointer;
+	
+}
+.message .meg-op .emji{
+	position:absolute;
+	width:135px;
+	right:20;
+	top:-40px;
+	border-radius:5px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:5px;
+	background:white;
+	box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.25);
+}
+.message .meg-op .emji i{
+	margin-left:6px;
+	margin-right:6px;
+	font-size:20px;
+	cursor:pointer;
+}
+#emoShow{
+	visibility:hidden;
+	transition:all 0.1s ease;
+}
+
+.message .img-m {
+	width:20px;
+	padding:6px 13px;
+	border-radius:100px;
+    right:10;
+	outline:none;
+    box-shadow:none;
+	border:none;
+	background:none;
+	position:absolute;
+	top:-5px;
+    
+}
+.message .img-m:active{
+	outline:none;
+    box-shadow:none;
+	border:none;
+	background:none;
+}
+.message .img-m  .fa-image{
+	text-align:center;
+	margin-left:-3px;
+	padding-right:15px;
+	font-size:20px;
+	color:rgba(0,0,0,0.5);
+} 
+
+.message .send{
+	width:100%;
+	outline:none;
+	box-shadow:none;
+	font-weight:bold;
+	margin-bottom: 10;
+	
+}
+.message .send:hover{
+	width:100%;
+	outline:none;
+	box-shadow:none;
+	
+}
+
+
+
+
+
+
+
+
+@media (max-width: 468px) {
+#js-top {
+right: 10px;}
+#meg{
+	right: 10px;
+}
+
+.message{
+	width:300px;
+	right:0;
+height:80%;
+overflow-y:scroll;
+}
+
+
+
+
+}
+
+/* 
