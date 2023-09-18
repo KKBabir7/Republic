@@ -66,13 +66,27 @@ function disabledmodal(xyz) {
 function navbarShow(){
 				var show=document.getElementById("navshow");
 					
-					 if (show.style.display === "none") {
+					 if (show.style.left === "-1000px") {
 							show.style.display = "block";
-							
+							show.style.position = "fixed";
+							show.style.left = "0px";
+							show.style.background = "#fff";
+							show.style.top = "0";
+							show.style.width = "280px";
+							show.style.maxHeight  = "100%";
+							show.style.transition = "all 0.3s ease";
+							show.style.paddingLeft="34px";
+							show.style.borderLeft="1px solid red";
+							show.style.boxShadow="2px 0px 20px -7px rgba(0,0,0,0.15)"
 						} 
 					else{
-					show.style.display = "none";
-					
+					       
+							show.style.position = "fixed";
+							show.style.left = "-1000px";
+							show.style.top = "0";
+					        show.style.width = "0px";
+							show.style.height = "100%";
+							show.style.transition = " all 0.3s ease";
 					}
 			}
 
