@@ -320,7 +320,7 @@ html {
     transition: all 0.3s;
 }
 .section-3 .thumbnail:hover  .under {
-	bottom: -5;
+	bottom: 10;
 	z-index:20;
 }
 .section-3 .third-thumbnail .big-thum img{
